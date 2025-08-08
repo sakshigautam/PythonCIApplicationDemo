@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        python-version: [3.10]  # Use one version for packaging
+        python-version: [3.8]  # Use one version for packaging
 
     steps:
     - name: Checkout repository
