@@ -36,7 +36,7 @@ jobs:
 
     - name: Run tests with pytest
       run: |
-        pip install pytest
+        pip install .
         pytest
 
     - name: Build distribution package
