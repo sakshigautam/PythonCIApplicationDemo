@@ -24,4 +24,4 @@ COPY . .
 # RUN pip install --no-cache-dir *.whl
 
 # Default command (update with your actual entrypoint/module)
-CMD ["python", "-m", "calculator"]
+CMD ["python", "-m", "operations.py"]
